@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 class="text-3xl text-slate-500"></h1>
+    <div class="navbar">
+        <header class="block md:hidden">
+            <!-- header content -->
+             <div class="container">
+                <nav class="flex justify-between items-center p-4 ">
+                    <div>
+                        <img src="../public/img/logo_instax.png" alt="" class="w-16">
+                    </div>
+
+                    <div>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-comment"></i>
+                    </div>
+                </nav>
+             </div>
+             <!-- end header content -->
+        </header>
+
+    </div>
+    <div class="grid grid-cols-4">
+        <!-- left bar -->
+        <div class="hidden md:block bg-white w-64 py-8 px-4 border-r-2 border-gray-200 h-screen">
+            <img src="..\public\img\logo_instax.png" alt="">
+            <ul class="space-y-5">
+                <li class="mb-2">
+                    <a href="" class="flex flex-row items-center text-gray-500 hover:font-bold">
+                        <i class="fa-solid fa-house mr-2"></i>
+                        <p>home</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex flex-row items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-search mr-2"></i>
+                        <p>Search</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex flex-row items-center text-gray-800 hover:font-bold">
+                        <i class="fa-brands fa-internet-explorer mr-2"></i>
+                        <p>explore</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex flex-row items-center text-gray-800 hover:font-bold">
+                        <i class="fa-sharp fa-solid fa-film mr-2"></i>
+                        <p>reels</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex flex-row items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-comment-dots mr-2"></i>
+                        <p>messages</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex flex-row items-center text-gray-800 hover:font-bold">
+                        <i class="fa-sharp fa-regular fa-envelope mr-2"></i>
+                        <p>notification</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex flex-row items-center text-gray-800 hover:font-bold">
+                        <i class="fa-duotone fa-solid fa-user mr-2"></i>
+                        <p>account</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex flex-row items-center text-gray-800 hover:font-bold">
+                        <i class="fa-sharp fa-regular fa-address-card mr-2"></i>
+                        <p>profile</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex flex-row items-center text-gray-800 hover:font-bold">
+                        <i class="fa-sharp fa-solid fa-circle-info mr-2"></i>
+                        <p>more</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end left bar -->
+
+        <!-- post bar -->
+        <div class="col-span-4 md:col-span-2">
+            <div class="container"> 
+                <div class="flex flex-col items-center justify-center flex-nowrap ">
+                    <!-- story -->
+                    <div class="stories flex flex-row mt-5 space-x-5">
+                        <img src="https://picsum.photos/300/306" alt="" class="rounded-full object-cover w-16 h-16 ring-4 ring-red-300 ring-offset-orange-900 hover:ring-red-700 ">
+                        <img src="https://picsum.photos/300/305" alt="" class="rounded-full object-cover w-16 h-16 ring-4 ring-red-300 ring-offset-orange-900 hover:ring-red-700 ">
+                        <img src="https://picsum.photos/300/303" alt="" class="rounded-full object-cover w-16 h-16 ring-4 ring-red-300 ring-offset-orange-900 hover:ring-red-700 ">
+                        <img src="https://picsum.photos/300/301" alt="" class="rounded-full object-cover w-16 h-16 ring-4 ring-red-300 ring-offset-orange-900 hover:ring-red-700 ">
+                        <img src="https://picsum.photos/300/301" alt="" class="rounded-full object-cover w-16 h-16 ring-4 ring-red-300 ring-offset-orange-900 hover:ring-red-700 hidden md:block">
+                        <img src="https://picsum.photos/300/302" alt="" class="rounded-full object-cover w-16 h-16 ring-4 ring-red-300 ring-offset-orange-900 hover:ring-red-700 hidden md:block">
+                    </div>
+                    <!-- end story -->
+
+                    <!-- feed bar -->
+                    <div class="flex flex-col p-10 mt-10 p-2">
+                        <div class="feed-item">
+                            <div class="flex flex-row items-center mb-4 ">
+                                <img src="https://picsum.photos/300/301" alt="image" class="w-16 h-15 rounded-full object-cover mr-2">
+                                <div class="flex flex-col">
+                                    <span>bebek_cream</span>
+                                    <span class="font-thin text-gray-500">pekanbaru</span>
+                                </div>
+                                <a href="a" target="_blank " class="text-gray-500 ml-auto">
+                                    <i class="fa-duotone fa-solid fa-ellipsis-vertical"></i>
+                                </a>
+                            </div>
+
+                            <div>
+                                <img src="https://picsum.photos/560/600" alt="" class="rounded drop-shadow-sm w-full h-auto" >
+
+                                <div class="feed-icons flex flex-row items-center mt-2 p-2">
+                                    <i class="fa-duotone fa-solid fa-heart mr-2"></i>
+                                    <i class="fa-duotone fa-solid fa-comment mr-2"></i>
+                                    <i class="fa-duotone fa-solid fa-paper-plane mr-2"></i>
+                                    <i class="fa-duotone fa-solid fa-bookmark ml-auto"></i>
+                                </div>
+
+                                <div class="feed-caption flex flex-col space-y-2 mt-2">
+                                    <P>
+                                        <span class="font-bold">bebek_cream</span>
+                                        <span>saya merasa diri saya adalah sebuah bebek yang bisa terbang walaupun banyak halangan</span>
+                                    </P>
+                                    <p class="text-gray-400">view all 179 fa-comment</p>
+                                </div>
+                                <div>
+                                    <input type="text" class="border-b focus:outline-none focus:border-blue-500" name="fa-comment " id="content" placeholder="add a comment">
+                                    <i class="grow-8 fa-regular fa-smile ml-auto text-gray-700"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- end feed -->
+                </div>
+            </div>
+        </div>
+        <!-- end post bar -->
+
+        <!-- right poster -->
+        <div class="hidden md:block">
+            <div class="container">
+                <div class="text-gray-800 bg-white w-96 py-8 px-4">
+                    <div class="flex flex-row items-center mb-2">
+                        <img src="https://picsum.photos/300/308" alt="" class="w-16 h-16 mr-2 rounded-full object-cover">
+                        <p class="flex flex-col ">
+                            <span>learningx.id</span>
+                            <span class="font-thin text-gray-500">learningx</span>
+                        </p>
+                        <a href="" class="text-red-600 ml-auto">switch</a>
+                    </div>
+                    <p class="text-gray-800 my-8">suggestion for you</p>
+                    <div class="flex flex-row items-center mb-4">
+                        <img src="https://picsum.photos/300/309" alt="" class="w-12 h-12 mr-2 rounded-full object-cover">
+                        <p class="flex flex-col ">
+                            <span>rafdi_tron</span>
+                            <span class="font-thin text-gray-500">learningx</span>
+                        </p>
+                        <a href="" class="text-red-600 ml-auto">follow</a>
+                    </div>
+                    <div class="flex flex-row items-center mb-4">
+                        <img src="https://picsum.photos/300/310" alt="" class="w-12 h-12 mr-2 rounded-full object-cover">
+                        <p class="flex flex-col ">
+                            <span>rafi_slebew</span>
+                            <span class="font-thin text-gray-500">learningx</span>
+                        </p>
+                        <a href="" class="text-red-600 ml-auto">follow</a>
+                    </div>
+                    <div class="flex flex-row items-center mb-4">
+                        <img src="https://picsum.photos/300/311" alt="" class="w-12 h-12 mr-2 rounded-full object-cover">
+                        <p class="flex flex-col ">
+                            <span>syauqi_grawl</span>
+                            <span class="font-thin text-gray-500">learningx</span>
+                        </p>
+                        <a href="" class="text-red-600 ml-auto">follow</a>
+                    </div>
+                    <div class="flex flex-row items-center mb-4">
+                        <img src="https://picsum.photos/300/312" alt="" class="w-12 h-12 mr-2 rounded-full object-cover">
+                        <p class="flex flex-col ">
+                            <span>kak mentor elda</span>
+                            <span class="font-thin text-gray-500">learningx</span>
+                        </p>
+                        <a href="" class="text-red-600 ml-auto">follow
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end right poster -->
+    </div>
+</body>
+</html>
